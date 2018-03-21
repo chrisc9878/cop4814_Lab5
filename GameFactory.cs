@@ -39,6 +39,10 @@ namespace GameLibrary
             g = new Game("Marlins", 6, "Cubs", 12);
             GameSchedule.Add(g);
 
+            //this is the one I think might NOT work
+            g = new Game("Yankees", 6, "Oilers", 12);
+            GameSchedule.Add(g);
+            
             serial = new XmlSerializer(GameSchedule.GetType());
             sw = new StreamWriter(Game_Data);
             serial.Serialize(sw, GameSchedule);
