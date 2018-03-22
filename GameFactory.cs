@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-
+//example for step 10
 namespace GameLibrary
 {
     public class GameFactory
